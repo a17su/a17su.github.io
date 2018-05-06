@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300&subset=cyrillic);
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  background-color: white;
+}
+
+main {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+main img {
+	display: block;
+	margin: 50px auto 0;
+}
+
+main h1 {
+  text-align: center;
+  color: #2e353d;
+  font-size: 40px;
+  font-weight: 300;
+  //margin-top: 50px;
+}
+
+main ul {
+	margin-left: 10%;
+	padding: 0;
+}
+
+main li {
+	list-style-type: none;
+	margin-bottom: 1em;	
+}
+
+main a {
+  color: #597da3;
+  text-decoration: none;
+}
+
+main a:hover {
+    border-bottom: 1px solid #597da3;
+}
+
+.contact-btn {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+	text-decoration: none;	
+  line-height: 40px;
+  font-size: 24px;
+	color: white;
+	text-shadow: 0 0 2px #597da3;
+  background-color: rgba(89, 125, 163, 0.5);
+  border: 1px solid #597da3;
+  border-radius: 50%;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.contact-btn:hover {
+  background-color: white;
+  color: #597da3;
+	text-shadow: none;
+}
+
+.icon-github-circled {
+	font-size: 28px;
+}
