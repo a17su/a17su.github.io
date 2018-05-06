@@ -10,8 +10,9 @@ body {
 }
 
 main {
-  max-width: 650px;
+  max-width: 600px;
   margin: 0 auto;
+  //background-color: red;
 }
 
 main img {
@@ -24,7 +25,6 @@ main h1 {
   color: #2e353d;
   font-size: 40px;
   font-weight: 300;
-  //margin-top: 50px;
 }
 
 main ul {
@@ -33,8 +33,15 @@ main ul {
 }
 
 main li {
+	display: flex;
 	list-style-type: none;
-	margin-bottom: 1em;	
+	margin-bottom: 1em;
+}
+
+main li::after {
+	content: "";
+	display: table;
+	clear: both;
 }
 
 main a {
@@ -48,6 +55,8 @@ main a:hover {
 
 .contact-btn {
   display: inline-block;
+  float: left;
+  margin-right: 1em;
   width: 40px;
   height: 40px;
   text-align: center;
@@ -57,7 +66,7 @@ main a:hover {
 	color: white;
 	text-shadow: 0 0 2px #597da3;
   background-color: rgba(89, 125, 163, 0.5);
-  border: 1px solid #597da3;
+  border: 1px solid #8094ab;
   border-radius: 50%;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -67,8 +76,15 @@ main a:hover {
   background-color: white;
   color: #597da3;
 	text-shadow: none;
+  border: 1px solid #8094ab;
 }
 
 .icon-github-circled {
 	font-size: 28px;
+}
+
+.contact-btn + span {
+  margin: auto 0;
+  max-width: 80%;
+  //background-color: red;
 }
