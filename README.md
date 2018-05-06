@@ -1,2 +1,4 @@
 # a17su.github.io
-Хостинг на GitHub Pages
+Сайт-обложка GitHub-аккаунта, размещённый на хостинге GitHub Pages  
+Инструкция, как использовать хостинг от GitHub Pages, находится здесь:  
+https://htmlacademy.ru/blog/99-github-as-hosting
