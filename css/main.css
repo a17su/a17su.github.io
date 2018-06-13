@@ -55,6 +55,7 @@ main a:hover {
 }
 
 .contact-btn {
+  flex-shrink: 0;
   display: inline-block;
   float: left;
   margin-right: 1em;
@@ -86,5 +87,6 @@ main a:hover {
 
 .contact-btn + span {
   margin: auto 0;
-  max-width: 80%;
+  /*max-width: 80%;*/
+  background-color: green;
 }
