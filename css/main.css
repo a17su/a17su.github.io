@@ -87,6 +87,4 @@ main a:hover {
 
 .contact-btn + span {
   margin: auto 0;
-  /*max-width: 80%;*/
-  background-color: green;
 }
